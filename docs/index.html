@@ -1,1 +1,36 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora simple</title>
+</head>
+<body>
+    <div class="cuadro">
+        <div id="pantalla"></div>
+        <div class="con-botones">
+            <button class="botones" onclick="tocarBoton('1')">1</button>
+            <button class="botones" onclick="tocarBoton('2')">2</button>
+            <button class="botones" onclick="tocarBoton('3')">3</button>
+            <button class="botones" onclick="tocarBoton('AC')">AC</button>
+            <button class="botones"  onclick="tocarBoton('4')">4</button>
+            <button class="botones" onclick="tocarBoton('5')">5</button>
+            <button class="botones" onclick="tocarBoton('6')">6</button>
+            <button class="botones" onclick="tocarBoton('C')">C</button>
+            <button class="botones" onclick="tocarBoton('7')">7</button>
+            <button class="botones"  onclick="tocarBoton('8')">8</button>
+            <button class="botones"  onclick="tocarBoton('9')">9</button>
+            <button class="botones" onclick="tocarBoton('*')">*</button>
+            <button class="botones" onclick="tocarBoton('0')">0</button>
+            <button class="botones" onclick="tocarBoton('/')">/</button>
+            <button class="botones" onclick="tocarBoton('+')">+</button>
+            <button class="botones" onclick="tocarBoton('-')"> -</button>
+            <button class="botones" id="igual" onclick="tocarBoton('=')">=</button>
+            <button id="boton" class="botones" onclick="tocarBoton('.')">.</button>
+        </div>
+        <div id="historial"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
